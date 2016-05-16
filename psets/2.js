@@ -12,3 +12,10 @@ Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no mo
 */
 
 // write your solution here...
+
+var currentage = 34;
+var maxage = 95;
+var estamount = 2;
+var NN = (maxage - currentage) * estamount;
+
+console.log("You will need " + NN + " to last you until the ripe old age of " + maxage + ".");
