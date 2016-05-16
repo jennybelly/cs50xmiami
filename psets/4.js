@@ -11,3 +11,11 @@ http://www.mathsisfun.com/temperature-conversion.html
 */
 
 // write your solution here...
+
+var celsius = 26;
+var ctof = (celsius * 9)/5 + 32;
+var fahrenheit = 98;
+var ftoc = ((fahrenheit - 32) * 5)/9;
+
+console.log("" + celsius + "°C is " + ctof + "°F.")
+console.log("" + fahrenheit + "°F is " + ftoc + "°C.")
