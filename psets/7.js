@@ -13,4 +13,6 @@ fixStart('babble'): 'ba**le'
 
 function fixStart(s) {
   // write your solution here...
+  var firstchar = s.charAt(0);
+  return firstchar + s.slice(1).replace(new RegExp(firstchar, 'g'), '*');
 }
