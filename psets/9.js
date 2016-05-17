@@ -17,4 +17,12 @@ For example:
 
 function notBad(sentence) {
   // write your solution here...
+  var not = sentence.indexOf("not");
+  var bad = sentence.indexOf("bad");
+    if (not == -1 || bad == -1 || bad < not) {
+      return sentence;
+    }
+    else {
+      return sentence.slice(0, not) + "good" + sentence.slice(bad + 3);
+    }
 }
