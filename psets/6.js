@@ -14,4 +14,5 @@ Look up the JavaScript string reference to find methods which may be useful!
 
 function mixUp(a, b) {
   // write your solution here...
+  return b.slice(0,2) + a.slice(2) + " " + a.slice(0,2) + b.slice(2);
 }
