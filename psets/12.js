@@ -12,3 +12,14 @@ Write a function named calculateSupply that:
 */
 
 // write your solution here...
+var maxage = 95;
+
+function calculateSupply(age, estamount) {
+  var NN = (maxage - age) * estamount;
+  console.log("You will need " + NN + " to last you until\
+ the ripe old age of " + maxage + ".")
+}
+
+calculateSupply(34, 2);
+calculateSupply(26, 3);
+calculateSupply(94, 2);
