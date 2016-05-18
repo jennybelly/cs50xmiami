@@ -14,3 +14,6 @@ function greaterNum(num1, num2) {
   var greaterNum = Math.max(num1, num2);
   console.log("The greater number of " + num1 + " and " + num2 + " is " + greaterNum + ".");
 }
+
+greaterNum(13, 14);
+greaterNum(29, 3);
