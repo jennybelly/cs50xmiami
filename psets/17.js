@@ -10,3 +10,14 @@ Call that function for a few different scores and log the result to make sure it
 */
 
 // write your solution here...
+function pluralize(noun, number) {
+  if (number > 1 && noun != "sheep" && noun != "geese") {
+    return number + " " + noun + "s";
+  }
+  else {
+    return number + " " + noun;
+  }
+}
+pluralize("dog", 1);
+pluralize("geese", 8);
+pluralize("desk", 5);
