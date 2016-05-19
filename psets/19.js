@@ -9,3 +9,7 @@ Write a for loop that will iterate from 0 to 10.
 */
 
 // write your solution here...
+for (i = 0; i < 11; i++) {
+  var NN = i * 9;
+  console.log("" + i + " * 9 = " + NN + ".");
+}
