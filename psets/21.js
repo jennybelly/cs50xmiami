@@ -18,3 +18,14 @@ Never forget another recipe!
 */
 
 // write your solution here...
+var fav_recipe = {
+  title: "French Vinaigrette",
+  servings: 10,
+  ingredients: ["olive oil", "mustard", "vinegar", "salt", "pepper"]
+};
+console.log(fav_recipe.title);
+console.log("Serves: " + fav_recipe.servings + "");
+console.log("Ingredients:");
+for (var i = 0; i < fav_recipe.ingredients.length; i++) {
+  console.log(fav_recipe.ingredients[i]);
+}
