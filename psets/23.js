@@ -11,3 +11,12 @@ It's like IMDB, but much much smaller!
 */
 
 // write your solution here...
+var fav_movie = {
+  title: "Les Intouchables",
+  duration: 112,
+  stars: ["Francois Cluzet", " Omar Sy", " Anne Le Ny"]
+};
+function print(movie) {
+  console.log("" + fav_movie.title + " lasts for " + fav_movie.duration + " minutes.\
+ Stars: " + fav_movie.stars + ".");
+}
