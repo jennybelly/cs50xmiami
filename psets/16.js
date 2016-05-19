@@ -11,3 +11,21 @@ and log the result to make sure it works.
 */
 
 // write your solution here...
+function helloWorld(langcode) {
+  if (langcode == "es") {
+    return "Hola, Mundo";
+  }
+  else if (langcode == "fr") {
+    return "Bonjour, Monde";
+  }
+  else if (langcode == "de"){
+    return "Hallo, Welt";
+  }
+  else {
+    return "Hello, World";
+  }
+}
+helloWorld("de");
+helloWorld("es");
+helloWorld("fr");
+helloWorld("en");
