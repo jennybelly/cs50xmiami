@@ -17,3 +17,21 @@ Keep track of which books you read and which books you want to read!
 */
 
 // write your solution here...
+var books = [
+  {title: "Lolita", author: "Nabokov", alreadyRead: true},
+  {title: "The Enemy", author: "Lee Child", alreadyRead: false},
+  {title: "The Langoliers", author: "Stephen King", alreadyRead: true}
+];
+for (var i = 0; i < books.length; i++) {
+  var book = books[i];
+  console.log("" + book.title + " by " + book.author + "");
+}
+for (var i = 0; i < books.length; i++) {
+  var book = books[i];
+  if (book.alreadyRead == true) {
+    console.log("You already read " + book.title + " by " + book.author + ".");
+  }
+  else {
+    console.log("You still need to read " + book.title + " by " + book.author + ".");
+  }
+}
